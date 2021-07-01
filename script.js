@@ -78,7 +78,7 @@ Particle.prototype.update = function() {
 			this.size += 20;
 		}
 	} else if (this.size > minSize) {
-		this.size -= 0.01;
+		this.size -= 1;
 	}
 
 	if (this.size < 0) {
